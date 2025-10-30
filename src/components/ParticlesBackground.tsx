@@ -72,7 +72,7 @@ const ParticlesBackground: React.FC = () => {
                 particles: {
                     // Nombre de particules
                     number: {
-                        value: 50,
+                        value: 100,
                         density: {
                             enable: true, // La densité ajuste le nombre à la taille du canvas
                             height: 800,
@@ -98,12 +98,12 @@ const ParticlesBackground: React.FC = () => {
                     // Mouvement
                     move: {
                         enable: true,
-                        speed: 1, // Vitesse lente
+                        speed: 2, // Vitesse lente
                     },
                     // Lignes de connexion
                     links: {
                         enable: true,
-                        distance: 120, // Distance pour se connecter
+                        distance: 80, // Distance pour se connecter
                         color: "#C77DFF", // Couleur des lignes
                         opacity: 0.4,
                         width: 1,
