@@ -10,13 +10,13 @@ function App() {
   return (
       <div className="relative min-h-screen bg-[#0E0E12]">
           <ParticlesBackground />
-          <Navbar />
-          <main>
-              <section id="hero"><Hero /></section>
-              <section id="projects"><Projects /></section>
-              <section id="about"><About /></section>
-              <section id="contact"><Contact /></section>
-          </main>
+          <div className="p-5 md:px-[15%]">
+              <Navbar />
+              <Hero/>
+          </div>
+          <About/>
+          <Projects/>
+          <Contact/>
       </div>
   );
 }

@@ -1,10 +1,31 @@
 const Navbar: React.FC = () => {
     return (
-        <nav className="fixed top-0 w-full bg-[#0E012]/80 backdrop-blur-lg z-50 p-4 flex justify-center gap-8 text-white">
-            <a href="#hero" className="hover:text-[#C77DFF] transition">Accueil</a>
-            <a href="#about" className="hover:text-[#C77DFF] transition">Projets</a>
-            <a href="#projects" className="hover:text-[#C77DFF] transition">À propos</a>
-            <a href="#contact" className="hover:text-[#C77DFF] transition">Contact</a>
+        <nav className="relative md:sticky top-4 z-50 flex justify-center md:justify-between items-center p-4 ">
+            <a href="#" className="font-bold text-3xl md:text-2xl text-[#EDEDED]">
+                Nolann's <span className="text-[#C77DFF] drop-shadow-[0_0_15px_#C77DFF]">Portfolio</span>
+            </a>
+            <ul className="hidden md:flex space-x-4">
+                <li>
+                    <a href="#" className="btn btn-sm btn-ghost text-xl">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#about" className="btn btn-sm btn-ghost text-xl">
+                        About
+                    </a>
+                </li>
+                <li>
+                    <a href="#projects" className="btn btn-sm btn-ghost text-xl">
+                        Projects
+                    </a>
+                </li>
+                <li>
+                    <a href="#Contact" className="btn btn-sm btn-ghost text-xl">
+                        Contact
+                    </a>
+                </li>
+            </ul>
         </nav>
     );
 }
