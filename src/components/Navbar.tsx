@@ -1,6 +1,6 @@
 const Navbar: React.FC = () => {
     return (
-        <nav className="relative md:sticky top-4 z-50 flex justify-center md:justify-between items-center p-4 ">
+        <nav className="relative md:sticky top-4 z-50 flex justify-center md:justify-between items-center p-5 md:px-[15%] ">
             <a href="#" className="font-bold text-3xl md:text-2xl text-[#EDEDED]">
                 Nolann's <span className="text-[#C77DFF] drop-shadow-[0_0_15px_#C77DFF]">Portfolio</span>
             </a>
@@ -13,6 +13,11 @@ const Navbar: React.FC = () => {
                 <li>
                     <a href="#about" className="btn btn-sm btn-ghost text-xl">
                         About
+                    </a>
+                </li>
+                <li>
+                    <a href="#experiences" className="btn btn-sm btn-ghost text-xl">
+                        Experiences
                     </a>
                 </li>
                 <li>
