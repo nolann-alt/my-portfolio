@@ -56,7 +56,7 @@ const projects = [
 
 const Projects : React.FC = () => {
     return (
-        <section id="projects" className="relative mt-10 text-white ">
+        <section id="projects" className="relative mt-10 text-white mb-10 md:mb-32">
             <Title title="My Projects"/>
             <div className="grid md:grid-cols-3 gap-4">
                 {projects.map((project) => (

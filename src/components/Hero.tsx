@@ -1,5 +1,6 @@
 import {Mail} from "lucide-react";
 import profil from '../assets/profil.jpg';
+import cvPDF from '../assets/CV_Stage.pdf';
 
 const Hero: React.FC = () => {
     return (
@@ -13,7 +14,10 @@ const Hero: React.FC = () => {
                     science degree, and I'm looking for an internship to apply <br/>
                     my knowledge and develop my skills in the IT field.
                 </p>
-                <a href="#contact" className="btn bg-[#C77DFF] md:w-fit">
+                <a href={cvPDF}
+                   target="_blank" // nouvelle fenêtre
+                   rel="noopener noreferrer"
+                   className="btn bg-[#C77DFF] md:w-fit">
                     <Mail className="w-5 h-5"/>
                     Contact me
                 </a>

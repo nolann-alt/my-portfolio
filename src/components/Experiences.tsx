@@ -144,7 +144,7 @@ const experiences = [
 
 const Experiences: React.FC = () => {
     return (
-        <section id="experiences" className="relative">
+        <section id="experiences" className="relative mb-10 md:mb-32">
             <Title title="Experiences"/>
             <div className="flex flex-col-reverse md:flex-row justify-center items-center">
                 <div className="flex flex-wrap gap-4 justify-center items-center md:w-1/3 mt-4 md:mt-0">
