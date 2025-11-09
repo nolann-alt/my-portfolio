@@ -25,11 +25,13 @@ const Navbar: React.FC = () => {
                         Projects
                     </a>
                 </li>
+                {/*}
                 <li>
                     <a href="#Contact" className="btn btn-sm btn-ghost text-xl">
                         Contact
                     </a>
                 </li>
+                {*/}
             </ul>
         </nav>
     );

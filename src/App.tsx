@@ -1,10 +1,11 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-import Projects from "./components/Projects";
+import Projects from "./components/Projects.tsx";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import ParticlesBackground from "./components/ParticlesBackground.tsx";
 import Experiences from "./components/Experiences.tsx";
+import Footer from "./components/Footer.tsx";
 
 
 function App() {
@@ -18,9 +19,10 @@ function App() {
           <About/>
           <div className="p-5 md:px-[15%]">
               <Experiences/>
+              <Projects/>
           </div>
-          <Projects/>
           <Contact/>
+          <Footer/>
       </div>
   );
 }
